@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(218, 132, 221);
+  text-align: center;
+  background-image: url(../src/foto/foto3.jpg);
+  
+}
+ 
+form{
+  text-align: center;
+  padding: top;
+  
+
+}
+
+h1{
+  font-size: 38px;
+  text-align: center;
+  
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  
+}
+
+/*input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+*/
+input[type=submit] {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+  border-style: solid;
+  border-width: medium;
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: medium;
+  
+}
+
+
+.container{
+  background-color: antiquewhite;
+  border-style: hidden;
+  border-radius: 15px;
+  padding:18px;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+  text-align: center;
+  
+ 
+  
+}
+@media screen and (max-width:900px){
+
+    .main-contianer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly; 
+      text-align: center;
+      
+    }
+  
+  }
+
+
